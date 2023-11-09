@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// .container{
+//   padding: 0px;
+// }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+nav a.right {
+  text-align: right;
+  padding-right: 10px;
+  width: 1%;
+}
+
+.nav {
+  width: 100vw;
+  padding-bottom: 10px;
+  background-color: #c2b381;
+}
+
+nav > a {
+  padding-top: 35px;
+  background: #c2b381;
+}
+
+.navText {
+  font-family: "Roboto";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.fa-brands {
+  padding: 30px 0 5px 10px;
+  text-decoration: none;
+}
+.right {
+  float: right !important;
+}
+
+.footer {
+  // position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #28a5b1;
+}
+
+.logo > img {
+  width: 30%;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.copyright {
+  padding: 10px 0 20px 0;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .nav {
+    text-align: center;
+  }
+  nav a.right {
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .fixed-top {
+    position: static;
+  }
+}

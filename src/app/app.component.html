@@ -1,0 +1,41 @@
+<div class="container">
+  <!-- Navbar -->
+  <nav class="nav flex-column flex-sm-row fixed-top">
+    <a class="flex-sm-fill text-sm-center nav-link active navText" aria-current="page" href="#home">Home</a>
+
+    <a id="target_story1" class="flex-sm-fill text-sm-center nav-link navText" href="#page">our story</a>
+
+    <a class="flex-sm-fill text-sm-center nav-link navText" href="#cusine">menu</a>
+
+    <a class="flex-sm-fill text-sm-center nav-link navText" href="#booking">reservation</a>
+
+    <a class="flex-sm-fill text-sm-center nav-link navText" href="#contact">contact us</a>
+
+    <a class="flex-sm-fill fa-brands fa-facebook right" style="font-size: 30px; color: #fff; text-decoration: none"
+      href="https://www.facebook.com/xiafeifeihk" value="facebook" target="_blank"></a>
+
+    <a class="flex-sm-fill fa-brands fa-instagram" style="font-size: 30px; color: #fff; text-decoration: none"
+      href="https://www.instagram.com/xiafeifeihk/" value="instagram" target="_blank"></a>
+  </nav>
+
+  <router-outlet></router-outlet>
+</div>
+<!-- footer -->
+<footer class="text-center footer">
+  <div class="logo text-center justify-content-center">
+    <img src="../assets/logo_gold.png" alt="" />
+  </div>
+  <div>
+    <a class="fa-brands fa-facebook justify-content-center"
+      style="font-size: 30px; color: #fff; text-decoration: none; padding: 10px"
+      href="https://www.facebook.com/xiafeifeihk" value="facebook" target="_blank"></a>
+    <a class="fa-brands fa-instagram justify-content-center"
+      style="font-size: 30px; color: #fff; text-decoration: none; padding: 10px"
+      href="https://www.instagram.com/xiafeifeihk/" value="instagram" target="_blank"></a>
+  </div>
+  <div class="copyright">
+    <p>
+      &#169; {{ currentYearLong() }} EML. All rights reserved. Privacy Terms.
+    </p>
+  </div>
+</footer>
